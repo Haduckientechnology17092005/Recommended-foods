@@ -1,9 +1,3 @@
-//change page
-let textbox = document.getElementById("text-box");
-imagesale.addEventListener("click", changePage); 
-function changePage() {
-    window.location.href = "https://haduckientechnology17092005.github.io/Sale-foods/";
-}
 //slider2 for other section
 document.addEventListener("DOMContentLoaded", () => {
     // Đảm bảo biến được khởi tạo sau khi DOM đã tải
@@ -16,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (index >= 2) {
             currentSlidev1 = 0;
         } else if (index < 0) {
-            currentSlidev1 = totalSlide - 1;
+            currentSlidev1 = 1;
         } else {
             currentSlidev1 = index;
         }
